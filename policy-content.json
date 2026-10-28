@@ -1,0 +1,186 @@
+{
+  "updated": "28 October 2026",
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "Privacy Policy",
+      "eyebrow": "BANEMONT STUDIOS · Privacy & player rights",
+      "description": "The BANEMONT STUDIOS privacy policy for linked games, including Astro Exit. Data practices, advertising, player rights and deletion requests.",
+      "intro": "How BANEMONT STUDIOS handles information in our games and player services. We also publish in app stores under the name <strong>BANEMONT</strong>.",
+      "summary_title": "The essentials",
+      "summary": [
+        "Your game’s notice explains which features and providers apply.",
+        "Local saves and an optional online player account are separate.",
+        "Online rankings can make your chosen name, flag and results public.",
+        "Advertising providers may process technical data even when viewing an ad is optional.",
+        "You can start a privacy or deletion request at <a href=\"mailto:info@banemont.org\">info@banemont.org</a>."
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "1. Who we are and what this policy covers",
+          "body": "<p>BANEMONT STUDIOS (“we”, “us” or “our”) develops and publishes games. Our app-store publisher name may appear as <strong>BANEMONT</strong>. This Privacy Policy covers our games and related player services that link to this policy, together with the game notices listed below.</p><p>Each game notice explains the features, providers and data practices that apply to that game. A feature described for one game does not mean every BANEMONT STUDIOS game has that feature. An additional notice or in-game explanation may provide more specific information. If there is a difference, the more specific notice applies to that feature.</p><div class=\"game-card\"><h3>Currently covered game: Astro Exit</h3><p>Android package <code>com.astroexit.game</code>. Local puzzle play, optional Worldwide pilots and Challenge rankings, and rewarded advertising where enabled.</p><a href=\"games/astro-exit.html\">Read the Astro Exit privacy notice →</a></div><p>Privacy and support questions can be sent to <a href=\"mailto:info@banemont.org\">info@banemont.org</a>. Please name the game in your request.</p>"
+        },
+        {
+          "id": "information",
+          "title": "2. Information we use",
+          "body": "<p>The information used depends on the game, the installed version and the features you choose. The current game notices identify the applicable categories.</p><h3>Local game information</h3><p>A game may keep progress, checkpoints, settings, earned currency, cosmetic selections, power ups and local scores on your device. These records enable saved play and preferences. An operating system or a device backup service may separately back up or restore app data under its own settings.</p><h3>Information you choose to provide</h3><p>If you use an online feature, the applicable game may receive a chosen player name, selected flag or region, and the information needed to maintain that online identity. A support request includes the email address, message and attachments you send us. Avoid sending unnecessary personal information.</p><h3>Online gameplay and technical information</h3><p>Online services can receive account or installation identifiers, authentication credentials, scores, game and map versions, actions and timing needed to validate a run, request identifiers, and security or diagnostic information. Network providers receive connection information, such as an IP address, when processing requests. An anonymous or randomly assigned identifier can still distinguish a player or installation.</p><h3>Advertising information</h3><p>Where an advertising SDK is enabled, its provider may process advertising or other device identifiers, IP addresses, approximate location inferred from an IP address, app or ad interactions, and diagnostic or performance information. The advertising section and game notice explain the provider and available controls.</p>"
+        },
+        {
+          "id": "purposes",
+          "title": "3. Why information is used",
+          "body": "<p>We use the information associated with the features you use to:</p><ul><li>Run the game, save local progress and apply your preferences.</li><li>Create, authenticate or recover an optional online player identity.</li><li>Validate online results, operate rankings, prevent duplicate submissions and investigate unfair or abusive activity.</li><li>Deliver optional rewarded advertising and verify that a reward was earned before crediting it.</li><li>Operate and secure our services, diagnose failures, control request volume and prevent fraud.</li><li>Answer support or privacy requests, verify ownership when necessary and fulfill applicable legal obligations.</li></ul><p>Where privacy law requires a legal basis, the basis depends on the activity: providing a feature you request, consent where required, permitted legitimate interests in operating and securing our services, or a legal obligation. We seek required consent through the relevant feature or privacy controls; this policy does not itself grant consent to every type of processing.</p>"
+        },
+        {
+          "id": "sharing",
+          "title": "4. Who receives information",
+          "body": "<h3>Service providers</h3><p>Information is processed by providers used to host and secure a game, authenticate online players, deliver advertising, distribute the app or handle email support. The current providers and their roles are identified in each game notice. Providers may also handle information for their own purposes under their privacy policies and applicable law.</p><h3>Other players</h3><p>If you submit to a public leaderboard, the fields described in the game notice are visible to other people. Use a player name that does not disclose your real name, email address or other private details.</p><h3>Legal and security disclosures</h3><p>We may disclose information where reasonably necessary to comply with applicable law or a valid legal process, protect players and services, investigate fraud or security incidents, or establish and defend legal claims. A business transfer could involve relevant records, subject to applicable safeguards and any required notice.</p><h3>Advertising-related sharing</h3><p>Advertising providers receive the information described in the advertising notice. Depending on the law that applies and how ads are configured, some advertising-related disclosures may be treated as a “sale”, “sharing” or targeted advertising. We do not describe advertising-enabled games as collecting or sharing no data. Use the available privacy choices or contact us about rights that apply to you.</p>"
+        },
+        {
+          "id": "advertising",
+          "title": "5. Advertising and privacy choices",
+          "body": "<p>Astro Exit uses <strong>Google Mobile Ads / AdMob</strong> and Google’s <strong>User Messaging Platform</strong> in Android builds where ads are enabled. Google’s SDK processes data for advertising, measurement, analytics and fraud prevention. See the <a href=\"games/astro-exit.html#advertising\">Astro Exit notice</a> for its behavior.</p><p>Rewarded-ad viewing is optional. However, an enabled SDK may initialize or prepare ads before you tap a Watch Ad button when the privacy requirements checked by the consent service permit requests. Test ads also use a real SDK and are not a promise of no data processing.</p><p>Review the advertising privacy options presented in the game, where available, and your device’s advertising controls. Android may let you reset or delete an advertising identifier. Withdrawing consent affects future processing that relies on that consent; it does not automatically delete previously held information. Non-personalized or limited ads can still involve technical processing.</p><p>See <a href=\"https://policies.google.com/privacy\">Google’s Privacy Policy</a> and <a href=\"https://developers.google.com/admob/android/next-gen/privacy/play-data-disclosure\">Google’s Android SDK data disclosure</a>.</p>"
+        },
+        {
+          "id": "retention",
+          "title": "6. How long information is kept",
+          "body": "<p>Retention depends on the type of information and why it is needed.</p><ul><li><strong>Local records</strong> stay on your device until changed, reset or removed. Device backups can separately preserve copies.</li><li><strong>Online player and ranking records</strong> are kept to provide the online feature and related validation or recovery, subject to a verified deletion request and any permitted retention described in the game notice.</li><li><strong>Operational and security records</strong> are kept as needed to operate services, investigate problems, prevent abuse and meet legal obligations. Some request counters are pruned automatically.</li><li><strong>Support correspondence</strong> is kept for handling the request and related follow-up, and where needed for security, legal or recordkeeping purposes.</li><li><strong>Provider logs and backups</strong> follow the provider’s retention and recovery processes. Deleting active records does not instantly erase every historical backup or log.</li></ul><p>When handling a deletion request, we may need to retain limited information for legal, security or confirmation purposes. The Astro Exit notice explains its minimal deletion-confirmation record. Contact us about retention or the status of a request; we do not promise a single retention period for every provider and category.</p>"
+        },
+        {
+          "id": "security",
+          "title": "7. Security and international processing",
+          "body": "<p>We use measures appropriate to the information and service, including HTTPS for online service requests, authenticated access and restrictions on private records. Keep private recovery keys, session credentials and deletion receipts secure. Do not post them publicly or send them in an ordinary support email.</p><p>Providers can process or store information outside your province, state or country. Privacy protections and lawful access rules may differ in those places. Applicable legal requirements and provider safeguards govern those transfers. No method of storage or transmission can guarantee absolute security.</p>"
+        },
+        {
+          "id": "rights",
+          "title": "8. Your choices and privacy rights",
+          "body": "<p>You can use the settings and choices offered in the relevant game, choose a non-identifying player name, decline optional ad viewing, and request deletion of an online identity.</p><p>Depending on where you live and the law that applies, you may have rights to access, correct, delete or obtain a copy of personal information; withdraw consent; object to or restrict certain processing; or opt out of qualifying sale, sharing or targeted advertising. Some rights are subject to exceptions and identity verification. We will not penalize you for exercising rights where the law prohibits doing so.</p><p>Send a request to <a href=\"mailto:info@banemont.org?subject=BANEMONT%20STUDIOS%20privacy%20request\">info@banemont.org</a> and identify the game. We may ask for the minimum additional information needed to verify that the request concerns your account. A public player name alone does not establish ownership. We respond in accordance with applicable requirements and explain if we cannot fulfill all or part of a request.</p><p>You may also raise a concern with the privacy regulator or supervisory authority relevant to where you live. Where an authorized agent may act for you, we may need evidence of authorization.</p><div class=\"actions\"><a class=\"button\" href=\"delete-data.html\">Request account or data deletion</a></div>"
+        },
+        {
+          "id": "deletion",
+          "title": "9. Account and data deletion",
+          "body": "<p>You can start a deletion request without reinstalling a game through our <a href=\"delete-data.html\">account and data deletion page</a>, which provides an email request pathway. If an in-game deletion control is available in your version, you can use that too.</p><p>Submitting a request is not confirmation that deletion is complete. Ownership may need to be verified, and removal may take processing time. We will confirm the outcome or explain any additional steps. Do not email passwords, authentication tokens, recovery keys or deletion receipts.</p><p>Deleting an online player identity and deleting local game data are separate actions. Uninstalling or clearing the app does not by itself request server-account deletion. Removing a server identity does not automatically erase campaign progress or currency saved on a device. The game notice describes what is in scope.</p>"
+        },
+        {
+          "id": "children",
+          "title": "10. Children and age suitability",
+          "body": "<p>Astro Exit is intended for teenagers and adults aged <strong>13 and older</strong>, and is not directed to children under 13. A stated intended audience is not age verification. The game’s store information and game notice describe its audience; other games must provide their own notice if their audience or practices differ.</p><p>We do not knowingly seek personal information from children in a way that violates applicable law. If you believe a child has provided information that should not have been collected, contact <a href=\"mailto:info@banemont.org\">info@banemont.org</a>. We will investigate and take the steps required by applicable law, including deletion where appropriate.</p>"
+        },
+        {
+          "id": "website",
+          "title": "11. This privacy website and external links",
+          "body": "<p>These privacy pages are designed for <strong>GitHub Pages</strong>. We do not add advertising, analytics scripts, tracking cookies or browser-storage features to them. The pages do not contain a form that collects a recovery key or password.</p><p>GitHub states that visits to GitHub Pages involve logging and storing visitor IP addresses for security, even when a visitor is not signed in. GitHub handles that hosting information under the <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">GitHub General Privacy Statement</a>. Selecting an email link opens your email application; your email provider and ours process the resulting message.</p><p>External links lead to services with their own privacy practices. This policy describes BANEMONT STUDIOS practices and does not replace those services’ notices.</p>"
+        },
+        {
+          "id": "changes",
+          "title": "12. Changes to this policy",
+          "body": "<p>We update this policy and the relevant game notices when practices change, including when a new game or provider is added. The revision date appears at the top. Where a material change requires additional notice or consent, we provide it as required. An updated policy is not a substitute for any consent that the law requires.</p>"
+        },
+        {
+          "id": "contact",
+          "title": "13. Contact BANEMONT STUDIOS",
+          "body": "<div class=\"contact-box\"><p><strong>Privacy and player support</strong></p><p class=\"email\"><a href=\"mailto:info@banemont.org\">info@banemont.org</a></p><p>Please include the game’s name and the type of request. Send only what is necessary to explain it. Never include a password, session token, recovery key or private deletion receipt.</p></div>"
+        }
+      ]
+    },
+    {
+      "path": "games/astro-exit.html",
+      "title": "Astro Exit privacy notice",
+      "eyebrow": "Game notice · com.astroexit.game",
+      "description": "Astro Exit privacy details: local saves, optional Worldwide pilots, Challenge validation, Google advertising and online account deletion.",
+      "intro": "The game-specific details for Astro Exit. Read this notice together with the <a href=\"../index.html\">BANEMONT STUDIOS Privacy Policy</a>.",
+      "summary_title": "Astro Exit at a glance",
+      "summary": [
+        "Campaign progress and the coin wallet are stored on your device.",
+        "Worldwide uses an optional anonymous pilot; it does not cloud-sync the campaign wallet.",
+        "Public rankings show your chosen name, flag and qualifying result.",
+        "Rewarded ads are optional; enabled Google SDKs can prepare ads before you press Watch Ad.",
+        "Use the <a href=\"../delete-data.html\">email deletion pathway</a> if an in-game deletion control is unavailable."
+      ],
+      "sections": [
+        {
+          "id": "game",
+          "title": "1. Game and publisher",
+          "body": "<p>This notice supplements the <a href=\"../index.html\">BANEMONT STUDIOS Privacy Policy</a> for <strong>Astro Exit</strong>, published in Google Play as <strong>BANEMONT</strong>. Android package: <code>com.astroexit.game</code>. Privacy and support: <a href=\"mailto:info@banemont.org\">info@banemont.org</a>.</p><p>This notice describes the current game’s features. Controls can vary with the installed build and service availability. It does not promise that every prepared feature is active in every version.</p>"
+        },
+        {
+          "id": "local",
+          "title": "2. Local campaign and device records",
+          "body": "<p>Campaign progress, checkpoints, stars, coins, cosmetics, power ups, sound and vibration preferences, device-only Challenge results and ad-reward receipts are saved on your device. Receipts help prevent duplicate local rewards.</p><p>The Worldwide service does not synchronize your campaign save or wallet. Recovering an online pilot does not restore local coins, campaign progress or cosmetic inventory. An operating-system or device backup service may separately back up or restore local app data.</p>"
+        },
+        {
+          "id": "pilot",
+          "title": "3. Optional Worldwide pilot",
+          "body": "<p>Worldwide uses <strong>Supabase</strong> for authentication, database storage and server functions. Authentication assigns an anonymous account identifier. The service associates it with your chosen pilot name and selected country or region flag. Creating a pilot does not ask you to supply an email address, phone number or password.</p><p>The installation keeps access and refresh credentials and may queue Challenge submissions while delivery is interrupted. A flag is a choice, not a verified location. No Android location permission is needed to select one.</p><p>Public rankings can show your pilot name, selected flag, Challenge category and qualifying best time. Private authentication information and full replay records are not public ranking fields. Choose a non-identifying pilot name.</p>"
+        },
+        {
+          "id": "challenge",
+          "title": "4. Challenge results and fair play",
+          "body": "<p>The online service receives the Challenge mode, map and rules version, run identifiers, recorded taps and coordinates, action timing, elapsed duration and validation information. These are used to validate clears and timing, handle interrupted submissions, prevent duplicates and operate rankings.</p><p>Online requests also expose connection information, such as an IP address, to the providers handling them. Request counters and service logs support reliability and abuse prevention. A replay check is not proof that a human played a run.</p><p>Service records for online pilots and Challenge attempts are kept to provide these features unless removed through a verified deletion process. An attempt becoming ineligible for submission is not a promise that its stored replay has already been erased.</p>"
+        },
+        {
+          "id": "recovery",
+          "title": "5. Recovery and private credentials",
+          "body": "<p>A private, one-use recovery key can transfer ownership of an online pilot to another installation. The service keeps a cryptographic hash rather than the displayed key. Online recovery transfers the online records, not the local campaign or wallet.</p><p>Keep the key private. Someone who obtains a usable key may be able to take over the pilot. Do not send recovery keys, session credentials or deletion receipts in an ordinary email or public message. We do not ask you to publish credentials to prove ownership.</p>"
+        },
+        {
+          "id": "advertising",
+          "title": "6. Rewarded advertising",
+          "body": "<p>Advertising-enabled Android builds include Google Mobile Ads / AdMob and Google’s User Messaging Platform. Ad viewing is optional. A game reward is credited only after the SDK reports that it was earned; closing an ad alone does not establish eligibility.</p><p>The game checks advertising privacy requirements and may initialize the SDK or preload ads before a Watch Ad tap when the consent service permits requests. Where required by the service, advertising privacy options are available in Settings. Official sample ads in test builds still involve a real SDK.</p><p>Google describes processing IP addresses and approximate location inferred from them, product and advertising interactions, diagnostics or performance information, and device or account identifiers for advertising, analytics and fraud prevention. The data processed depends on the SDK version, device and applicable choices. An ads-disabled build does not request rewarded ads through the game’s provider.</p><p>See <a href=\"https://policies.google.com/privacy\">Google’s Privacy Policy</a> and <a href=\"https://developers.google.com/admob/android/next-gen/privacy/play-data-disclosure\">Google’s Android SDK disclosure</a>.</p>"
+        },
+        {
+          "id": "deletion",
+          "title": "7. Request deletion of online data",
+          "body": "<p>You can request deletion by emailing <a href=\"mailto:info@banemont.org?subject=Astro%20Exit%20account%20deletion%20request\">info@banemont.org</a> with the subject “Astro Exit account deletion request”. Include your public pilot name and selected flag if known. These details help locate a record but do not by themselves prove ownership. We will explain any secure verification needed.</p><p>You can start this request without reinstalling Astro Exit. The <a href=\"../delete-data.html\">deletion request page</a> explains the process. If your version provides <strong>Challenge → Pilot → Delete online pilot</strong>, you may use that control. If it reports that the service is unavailable, use the email pathway. A submitted or pending request is not a completed deletion.</p><p>After ownership is verified and account deletion is completed, its scope includes the active online pilot, Worldwide scores, stored runs and replays, recovery record, account-linked request counters and backing anonymous authentication account. Local campaign progress, coins, cosmetics, power ups, ad receipts and device-only records remain on the device.</p><p>Where automated deletion uses a confirmation receipt, the service may retain its hash, state and operational timestamps or attempt metadata to confirm an interrupted request. On completion, that record no longer contains the pilot’s authentication-account identifier, name, flag, score or replay. These minimal confirmation records currently have no automatic expiry. Provider logs and backups may retain historical information under separate retention processes.</p><p>If you no longer have access to the original installation or a recovery method, tell support. Do not send a recovery key in the initial email. We cannot delete an account solely on a request that names a public pilot.</p>"
+        },
+        {
+          "id": "providers",
+          "title": "8. Providers, audience and contact",
+          "body": "<ul class=\"provider-list\"><li><strong>Supabase — optional online services</strong>Authentication, hosted database and server functions. <a href=\"https://supabase.com/privacy\">Supabase Privacy Policy</a>.</li><li><strong>Google — advertising and Android distribution</strong>Mobile Ads / AdMob, consent messaging and, where used, Google Play distribution. <a href=\"https://policies.google.com/privacy\">Google Privacy Policy</a>.</li><li><strong>GitHub — this privacy website</strong>Static page hosting and security-related connection records. <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">GitHub Privacy Statement</a>.</li></ul><p>Astro Exit is intended for ages 13 and older. This does not verify age. The studio policy explains rights, international processing, security and support correspondence.</p><div class=\"actions\"><a class=\"button\" href=\"../delete-data.html\">Request account or data deletion</a><a href=\"../index.html\">Read the studio privacy policy</a></div>"
+        }
+      ]
+    },
+    {
+      "path": "delete-data.html",
+      "title": "Account & data deletion",
+      "eyebrow": "BANEMONT STUDIOS · Player requests",
+      "description": "Request BANEMONT STUDIOS account or data deletion by email, including an Astro Exit online pilot, without reinstalling the game.",
+      "intro": "Request deletion of an online account or associated personal information. You can contact us even if you no longer have the game installed.",
+      "summary_title": "Start with one email",
+      "summary": [
+        "Contact <a href=\"mailto:info@banemont.org\">info@banemont.org</a> and identify the game.",
+        "Include your public pilot name if known; ownership still needs verification.",
+        "Never email a recovery key, password, session token or private deletion receipt.",
+        "We confirm the outcome after verification and processing; a request is not instant deletion.",
+        "Online-account deletion and removal of local device saves are separate."
+      ],
+      "sections": [
+        {
+          "id": "request",
+          "title": "1. Start a request by email",
+          "body": "<div class=\"contact-box\"><p><strong>BANEMONT STUDIOS · published as BANEMONT</strong></p><p class=\"email\"><a href=\"mailto:info@banemont.org?subject=BANEMONT%20STUDIOS%20account%20or%20data%20deletion%20request\">info@banemont.org</a></p><p>Suggested subject: <strong>Account or data deletion request — [game name]</strong>.</p><div class=\"actions\"><a class=\"button\" href=\"mailto:info@banemont.org?subject=Astro%20Exit%20account%20deletion%20request\">Email an Astro Exit deletion request</a></div><p>If the button does not open an email application, copy the address into your email service. This page does not send a request automatically.</p></div><p>You can initiate a request without having the game installed. Please include:</p><ul><li>The game name. For Astro Exit, the Android package is <code>com.astroexit.game</code>.</li><li>Your public player or pilot name and selected flag, if known.</li><li>Whether you want the online account and associated data deleted, or have another privacy request.</li><li>Whether you still have access to the original installation or an available recovery method. Do not include the recovery key itself.</li></ul><div class=\"note\"><p><strong>Keep credentials private.</strong> Do not email passwords, authentication tokens, private recovery keys or deletion receipts. A public pilot name alone is not proof that you own the account.</p></div>"
+        },
+        {
+          "id": "verification",
+          "title": "2. Verification and confirmation",
+          "body": "<p>We review the request and explain any additional steps needed to verify ownership securely. Provide only the information requested for that process. If you cannot access the original device, tell us so we can discuss the available options.</p><p>Sending an email or using an in-game control starts the request; it does not prove that deletion has completed. We will confirm the outcome or explain any steps, limits or permitted retention that apply. Requests are handled in accordance with applicable law; this page does not promise an automatic or instant response.</p><p>If your installed version has an in-game deletion control, you may also use it. For Astro Exit, look in <strong>Challenge → Pilot</strong>. If the control is missing or reports an unavailable service, the email request pathway remains available.</p>"
+        },
+        {
+          "id": "scope",
+          "title": "3. What Astro Exit deletion covers",
+          "body": "<p>After verified account deletion is completed, the scope includes the active online pilot, Worldwide scores, stored Challenge runs and replay records, recovery record, account-linked request counters and backing anonymous authentication account.</p><p>It does not automatically remove campaign progress, coins, cosmetics, power ups, ad-reward receipts or device-only scores saved on your device. You can manage local data through the game’s available controls or Android app-storage settings. Clearing app storage can permanently remove local progress; uninstalling the app does not itself request online-account deletion.</p><p>For another game linked to the studio policy, identify that game in your request so we can explain its account and local-data scope.</p>"
+        },
+        {
+          "id": "retention",
+          "title": "4. Limited retained information",
+          "body": "<p>Limited information may be retained where needed for security, fraud prevention, applicable legal obligations or confirmation of an interrupted deletion. For receipt-based Astro Exit deletion, a minimal record may retain a cryptographic receipt hash, completion state and operational timestamps or attempt metadata; completed records no longer contain the deleted pilot’s name, flag, authentication-account identifier, scores or replays. Those confirmation records currently have no automatic expiry.</p><p>Support messages and provider logs or backups are subject to the retention practices described in the <a href=\"index.html#retention\">studio policy</a> and <a href=\"games/astro-exit.html#deletion\">Astro Exit notice</a>. Removal from active service records is not an immediate erasure of every provider backup or historical log. We explain any relevant retention when responding to your request.</p>"
+        },
+        {
+          "id": "privacy",
+          "title": "5. How this page handles information",
+          "body": "<p>This is a static page. It has no account sign-in, recovery-key form, tracking scripts, analytics or browser-storage features added by BANEMONT STUDIOS. GitHub Pages processes ordinary connection information, including IP addresses, for hosting security. Clicking an email link opens your chosen email application; the email is processed by your email provider and ours when you send it.</p><p>Read the <a href=\"index.html\">BANEMONT STUDIOS Privacy Policy</a> and <a href=\"games/astro-exit.html\">Astro Exit privacy notice</a> for full details.</p>"
+        }
+      ]
+    }
+  ]
+}
