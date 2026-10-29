@@ -288,6 +288,8 @@ You can initiate a request without having the game installed. Please include:
 - Whether you want the online account and associated data deleted, or have another privacy request.
 - Whether you still have access to the original installation or an available recovery method. Do not include the recovery key itself.
 
+You may also request deletion of selected data while keeping your account. Identify what you want removed. We will verify ownership and explain any information needed to continue the account, or retained for legitimate reasons.
+
 Keep credentials private. Do not email passwords, authentication tokens, private recovery keys or deletion receipts. A public pilot name alone is not proof that you own the account.
 
 
