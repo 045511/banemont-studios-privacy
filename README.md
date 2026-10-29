@@ -3,6 +3,19 @@
 Prepared 28 October 2026. Publication-ready static notices for BANEMONT STUDIOS,
 also published in app stores as BANEMONT. Contact: **info@banemont.org**.
 
+## Live website
+
+Published on GitHub Pages on 28 October 2026, with HTTPS enforced:
+
+- [BANEMONT STUDIOS Privacy Policy](https://045511.github.io/banemont-studios-privacy/)
+- [Astro Exit game notice](https://045511.github.io/banemont-studios-privacy/games/astro-exit.html)
+- [Account and data deletion requests](https://045511.github.io/banemont-studios-privacy/delete-data.html)
+
+The first Pages deployment completed successfully. All three pages and their
+CSS/favicon returned HTTP 200 without authentication and exactly matched their
+committed source. The email request page is active; this does not claim the
+separate prepared automatic deletion backend has been deployed.
+
 ## Pages
 
 - `index.html`: studio-wide privacy policy for games that link to it.
@@ -12,8 +25,8 @@ also published in app stores as BANEMONT. Contact: **info@banemont.org**.
 This website contains only public notices, styling and their source. Keep it in
 a **separate public repository**, never make the private game repository public
 to obtain free Pages hosting. GitHub Pages is free for public repositories and
-does not require a custom domain. A dedicated repository named
-`banemont-studios-privacy` is proposed under the existing account `045511`.
+does not require a custom domain. The dedicated public repository is
+[`045511/banemont-studios-privacy`](https://github.com/045511/banemont-studios-privacy).
 
 ## Publish with GitHub Pages
 
@@ -27,7 +40,7 @@ does not require a custom domain. A dedicated repository named
    check links and email buttons in a signed-out browser. Only then use the actual
    URLs in Play Console or an app. This local package is not evidence of hosting.
 
-If published under exactly that owner and repository, the expected URLs would be:
+The live URLs are:
 
 ```
 https://045511.github.io/banemont-studios-privacy/
