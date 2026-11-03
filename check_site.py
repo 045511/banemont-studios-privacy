@@ -5,6 +5,7 @@ from urllib.parse import urlsplit,unquote
 import json
 
 ROOT=Path(__file__).resolve().parent
+revision=json.loads((ROOT/'policy-content.json').read_text(encoding='utf-8'))['updated']
 checks=0
 def check(ok,message):
     global checks
@@ -36,7 +37,7 @@ for path in [ROOT/'index.html',ROOT/'games/astro-exit.html',ROOT/'delete-data.ht
     check(not any(t in ('script','form','iframe','input') for t,a in doc.elements),f'no collection widgets: {path}')
     text=' '.join(doc.text)
     check('BANEMONT' in text and 'info@banemont.org' in text,f'publisher/contact: {path}')
-    check('28 October 2026' in text,f'revision date: {path}')
+    check(revision.strip() and revision in text,f'revision date: {path}')
     check(not any(x in text for x in ['YOUR_PROJECT','YOUR_EMAIL','TODO','TBD','lorem ipsum']),f'no placeholder: {path}')
 for path,doc in pages.items():
     for href in doc.links:
