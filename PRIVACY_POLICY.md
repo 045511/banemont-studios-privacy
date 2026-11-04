@@ -1,6 +1,6 @@
 # BANEMONT STUDIOS — Privacy notices
 
-Last updated: 3 November 2026
+Last updated: 4 November 2026
 
 Public privacy contact: info@banemont.org
 
@@ -125,7 +125,7 @@ When handling a deletion request, we may need to retain limited information for 
 
 ### 7. Security and international processing
 
-We use measures appropriate to the information and service, including HTTPS for online service requests, authenticated access and restrictions on private records. Keep private recovery keys, session credentials and deletion receipts secure. Do not post them publicly or send them in an ordinary support email.
+We use measures appropriate to the information and service, including HTTPS for online service requests, authenticated access and restrictions on private records. Keep private transfer codes, recovery keys where a game still uses them, session credentials and deletion receipts secure. Do not post them publicly or send them in an ordinary support email.
 
 Providers can process or store information outside your province, state or country. Privacy protections and lawful access rules may differ in those places. Applicable legal requirements and provider safeguards govern those transfers. No method of storage or transmission can guarantee absolute security.
 
@@ -147,7 +147,7 @@ Request account or data deletion
 
 You can start a deletion request without reinstalling a game through our account and data deletion page, which provides an email request pathway. If an in-game deletion control is available in your version, you can use that too.
 
-Submitting a request is not confirmation that deletion is complete. Ownership may need to be verified, and removal may take processing time. We will confirm the outcome or explain any additional steps. Do not email passwords, authentication tokens, recovery keys or deletion receipts.
+Submitting a request is not confirmation that deletion is complete. Ownership may need to be verified, and removal may take processing time. We will confirm the outcome or explain any additional steps. Do not email passwords, authentication tokens, transfer codes, recovery keys or deletion receipts.
 
 Deleting an online player identity and deleting local game data are separate actions. Uninstalling or clearing the app does not by itself request server-account deletion. Removing a server identity does not automatically erase campaign progress or currency saved on a device. The game notice describes what is in scope.
 
@@ -179,7 +179,7 @@ Privacy and player support
 
 info@banemont.org
 
-Please include the game’s name and the type of request. Send only what is necessary to explain it. Never include a password, session token, recovery key or private deletion receipt.
+Please include the game’s name and the type of request. Send only what is necessary to explain it. Never include a password, session token, transfer code, recovery key or private deletion receipt.
 
 
 ---
@@ -191,49 +191,45 @@ Please include the game’s name and the type of request. Send only what is nece
 
 This notice supplements the BANEMONT STUDIOS Privacy Policy for Astro Exit, published in Google Play as BANEMONT. Android package: com.astroexit.game. Privacy and support: info@banemont.org.
 
-Talo-enabled builds use our Cloudflare-hosted Worldwide service and Talo rankings. Earlier builds connect to the original Supabase service, which holds older Worldwide records.
+Current Worldwide builds use our Cloudflare-hosted gateway and Talo rankings. Supabase retains records from earlier test versions; current builds no longer use it to sign in, transfer a pilot or submit scores.
 
 
 ### 2. Local campaign and device records
 
 Campaign progress, checkpoints, stars, coins, cosmetics, power ups, sound and vibration preferences, device-only Challenge results and ad-reward receipts are saved on your device. Receipts help prevent duplicate local rewards.
 
-The Worldwide service does not synchronize your campaign save or wallet. Recovering an online pilot does not restore local coins, campaign progress or cosmetic inventory. An operating-system or device backup service may separately back up or restore local app data.
+The Worldwide service does not synchronize your campaign save or wallet. Moving an online pilot does not restore local coins, campaign progress or cosmetic inventory. The game does not use Android app backup to move a pilot. Device or operating-system storage controls remain separate from the online service.
 
 
 ### 3. Optional Worldwide pilot
 
-Our Cloudflare-hosted gateway handles Worldwide accounts, sessions and recovery. The service assigns an anonymous account identifier and associates your pilot with your chosen name and selected country or region flag. Pilot registration asks only for a name and flag. A flag represents your selection and uses no Android location permission.
+Our Cloudflare-hosted gateway handles Worldwide accounts and sessions. Starting a first ranked run creates an anonymous account identifier and gives the pilot a generated space-themed name, such as Callisto27, with no flag. You can later choose a custom name and optional country or region flag. Creating a pilot does not ask for an email address, phone number, password or Google sign-in.
 
-The installation keeps access and refresh credentials so it can reconnect. It may queue Challenge submissions while delivery is interrupted.
+Pilot names are unique without regard to letter case. They use letters, numbers and underscores, must include at least two letters and may contain at most four numbers. They are checked against a list of offensive and reserved words. Choose a name that does not reveal personal information. A flag represents your selection and uses no Android location permission.
 
-Public rankings can show your pilot name, selected flag, Challenge mode and qualifying best time. Choose a non-identifying pilot name. The gateway keeps private authentication information, recovery hashes and full replays separate from the public rankings.
-
-Google-enabled Android builds offer Sign in with Google for Worldwide. Google handles account choice and consent. Our gateway validates Google’s signed identity token and stores a cryptographic hash of the stable Google account identifier linked to your game profile. The token can contain basic profile and email claims. We do not retain those claims or the raw Google token, and do not send them to Talo. Your chosen public pilot name and flag remain separate from your Google profile.
+The installation keeps access and refresh credentials so it can reconnect. It may queue Challenge submissions while delivery is interrupted. Public rankings can show your pilot name, selected flag, Challenge mode and qualifying best time. Private session credentials, transfer-code hashes and full replays stay separate from public rankings.
 
 
 ### 4. Challenge results and fair play
 
 The gateway receives the Challenge mode, map and rules version, run identifiers, recorded taps and coordinates, action timing, elapsed duration and validation information. It uses these to validate clears and timing, handle interrupted submissions, prevent duplicates and operate rankings.
 
-Talo receives a game-specific pilot identifier, the chosen name and flag, and whether the pilot is marked as a test profile. For published results it receives the qualifying time, Challenge mode and the map, rules and run identifiers. We send this information from the gateway. The gateway retains full replays and stores hashes of recovery keys and session credentials for verification.
+Talo receives a game-specific pilot identifier, the pilot name and optional flag, and whether the pilot is marked as a test profile. For published results it receives the qualifying time, Challenge mode and the map, rules and run identifiers. We send this information from the gateway. The gateway retains full replays and stores hashes of transfer codes and session credentials for verification.
 
-Providers handling online requests receive connection information such as an IP address. The gateway uses request counters and service logs for reliability and abuse prevention. A legal replay shows that the recorded taps clear the board under the applicable rules.
+Providers handling online requests receive connection information such as an IP address. The gateway uses request counters and service logs for reliability and abuse prevention. A legal replay shows that the recorded taps clear the board under the applicable rules; it does not prove that a human played the attempt.
 
 Online pilot and Challenge records are kept to operate these features and investigate submissions. An expired attempt can remain in the service’s records after its submission window closes.
 
 
-### 5. Recovery and private credentials
+### 5. Switching phones and private credentials
 
-For a Google-connected profile, use the same Google Account on a new device or after reinstalling to return to your Worldwide profile and scores. No recovery key is needed for this flow. Campaign progress, coins and cosmetics stay on the original device unless separately restored by your device’s backup service.
+To move a pilot, generate a transfer code in the game on the old phone and enter it in the game on the new phone. The six-character code works once and expires after ten minutes. The service stores a cryptographic hash rather than the code itself. The game does not save the code. A successful transfer moves the pilot name, flag and Worldwide records, and confirms the pilot name on the receiving phone.
 
-An older guest profile’s private, one-use recovery key can restore access to an online pilot on another installation. The service keeps a cryptographic hash to verify the key. Online recovery applies to the pilot and its online records. Campaign progress and the wallet stay on the device.
+A transfer does not move campaign progress, coins, cosmetics or device-only records. There is no email, phone-number or Google-account recovery. If you lose access to the old installation without a usable transfer code, you cannot restore that pilot through this flow; you can start a new one. Make the transfer while you can still use the old phone.
 
-The gateway keeps earlier pilots’ account identifiers, names, flags and any recovery-key hashes to carry those profiles over. When you restore a pilot from an earlier build using its existing session, the gateway checks the old access credential with Supabase and verifies that the account owns the matching pilot before linking it. An existing recovery key can also verify ownership against the retained hash. The transferred profile keeps its name, flag and public ranking eligibility.
+Legacy recovery keys and Supabase ownership transfer are retired. Historical pilot, session, recovery and import records may remain archived in Cloudflare or Supabase, but current builds do not use them to restore a pilot. Earlier test scores stay outside the current public rankings.
 
-Supabase retains older Worldwide account, pilot, run, replay and score records. Historical test scores stay in that archive. The current public leaderboard uses qualifying results from the current service.
-
-Keep your key private. Someone who obtains a usable key may be able to take over the pilot. Enter a recovery key only in the game’s recovery screen. Keep your key and session credentials out of email and public messages.
+Keep transfer codes and session credentials private. Someone who obtains a valid code may be able to move the pilot. Enter codes only in the game’s transfer screen, and keep them out of email and public messages.
 
 
 ### 6. Rewarded advertising
@@ -251,20 +247,18 @@ See Google’s Privacy Policy and Google’s Android SDK disclosure.
 
 We handle deletion requests for the current Worldwide service by email. Automatic deletion is disabled. To request deletion of a pilot or associated data, email info@banemont.org with the subject “Astro Exit account deletion request”. You can start a request without reinstalling the game. The deletion request page gives the steps.
 
-Include your public pilot name and flag if known and say whether you can still access the original installation. We use those details to locate records and explain how to verify ownership securely. Keep passwords, session tokens and recovery keys out of email.
+Include your public pilot name and flag if known and say whether you can still access the original installation. We use those details to locate records and explain how to verify ownership securely. Keep passwords, session tokens, transfer codes and historical recovery keys out of email. A public pilot name alone is not proof of ownership.
 
-Tell us which records you want removed. Depending on your use of Worldwide, the request can cover the Cloudflare gateway’s account, pilot, run, replay, recovery and account-linked request records, associated Talo rankings, and any legacy Supabase account or archive records linked to you. After verification and processing, we explain what was removed and any permitted retention. Provider logs and backups follow their separate retention processes.
+Tell us which records you want removed. Depending on your use of Worldwide, a verified request can cover the Cloudflare gateway’s account, pilot, run, replay, transfer and account-linked request records, associated Talo rankings, and any applicable legacy Supabase or Cloudflare archive records. After verification and processing, we explain what was removed and any permitted retention. Provider logs and backups follow their separate retention processes.
 
-Manage campaign progress, coins, cosmetics, power ups, ad receipts and device-only records using your device’s local storage controls. Your device or backup service may retain saved copies according to your settings. Send an email to request removal of the online pilot.
-
-A request can include removal of the Google-to-game identity link and its associated game profile. This removes the game’s link; it does not delete your Google Account or data held by Google for its own services. You can also manage third-party connections in your Google Account settings. Revoking Google consent alone does not delete existing game records.
+Manage campaign progress, coins, cosmetics, power ups, ad receipts and device-only records using your device’s local storage controls. A request to remove the online pilot does not automatically erase those local records.
 
 
 ### 8. Providers, audience and contact
 
-- Cloudflare — Worldwide gatewayHosts the game service and its private pilot, session, recovery and run validation records. Cloudflare Privacy Policy.
+- Cloudflare — Worldwide gatewayHosts the game service and its private pilot, session, transfer-code and run validation records. Cloudflare Privacy Policy.
 - Talo — Worldwide rankingsHosts game-specific pilot properties and qualifying leaderboard results. Talo Privacy Policy.
-- Supabase — earlier Worldwide serviceRetains older Worldwide records and verifies the owner of an existing pilot during transfer. Supabase Privacy Policy.
+- Supabase — earlier Worldwide serviceRetains archived records from earlier Worldwide test versions. Current builds do not use it for sign-in or pilot transfer. Supabase Privacy Policy.
 - Google — advertising and Android distributionMobile Ads / AdMob, consent messaging and, where used, Google Play distribution. Google Privacy Policy.
 - GitHub — this privacy websiteStatic page hosting and security-related connection records. GitHub Privacy Statement.
 
@@ -298,11 +292,11 @@ You can initiate a request without having the game installed. Please include:
 - The game name. For Astro Exit, the Android package is com.astroexit.game.
 - Your public player or pilot name and selected flag, if known.
 - Whether you want the online account and associated data deleted, or have another privacy request.
-- Whether you still have access to the original installation or an available recovery method. Do not include the recovery key itself.
+- Whether you still have access to the installation that owns the pilot. Do not include a transfer code or any historical recovery key.
 
 You may also request deletion of selected data while keeping your account. Identify what you want removed. We will verify ownership and explain any information needed to continue the account, or retained for legitimate reasons.
 
-Keep credentials private. Do not email passwords, authentication tokens, private recovery keys or deletion receipts. A public pilot name alone is not proof that you own the account.
+Keep credentials private. Do not email passwords, authentication tokens, transfer codes, historical recovery keys or deletion receipts. A public pilot name alone is not proof that you own the account.
 
 
 ### 2. Verification and confirmation
@@ -316,7 +310,7 @@ For other games, follow the instructions in their game notice if an in-game cont
 
 ### 3. What Astro Exit deletion covers
 
-A verified Astro Exit request can cover the online pilot and associated data, including Cloudflare gateway account, run, replay, recovery and account-linked request records, Talo leaderboard records and applicable legacy Supabase records. Tell us whether you want the account deleted or want selected data removed. We will confirm the scope and outcome of your request.
+A verified Astro Exit request can cover the online pilot and associated data, including Cloudflare gateway account, pilot, run, replay, transfer-code and account-linked request records, Talo leaderboard records and applicable legacy Supabase or Cloudflare archive records. Tell us whether you want the account deleted or want selected data removed. We will confirm the scope and outcome of your request.
 
 You can manage campaign progress, coins, cosmetics, power ups, ad-reward receipts and device-only scores through available game controls or Android app-storage settings. Clearing app storage can permanently remove local progress. Use email to request deletion of online records.
 
@@ -332,6 +326,6 @@ Provider backups and historical logs may follow a separate removal schedule from
 
 ### 5. How this page handles information
 
-This is a static page. It has no account sign-in, recovery-key form, tracking scripts, analytics or browser-storage features added by BANEMONT STUDIOS. GitHub Pages processes ordinary connection information, including IP addresses, for hosting security. Clicking an email link opens your chosen email application; the email is processed by your email provider and ours when you send it.
+This is a static page. It has no account sign-in, transfer-code or recovery-key form, tracking scripts, analytics or browser-storage features added by BANEMONT STUDIOS. GitHub Pages processes ordinary connection information, including IP addresses, for hosting security. Clicking an email link opens your chosen email application; the email is processed by your email provider and ours when you send it.
 
 Read the BANEMONT STUDIOS Privacy Policy and Astro Exit privacy notice for full details.
