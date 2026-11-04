@@ -209,6 +209,8 @@ The installation keeps access and refresh credentials so it can reconnect. It ma
 
 Public rankings can show your pilot name, selected flag, Challenge mode and qualifying best time. Choose a non-identifying pilot name. The gateway keeps private authentication information, recovery hashes and full replays separate from the public rankings.
 
+Google-enabled Android builds offer Sign in with Google for Worldwide. Google handles account choice and consent. Our gateway validates Google’s signed identity token and stores a cryptographic hash of the stable Google account identifier linked to your game profile. The token can contain basic profile and email claims. We do not retain those claims or the raw Google token, and do not send them to Talo. Your chosen public pilot name and flag remain separate from your Google profile.
+
 
 ### 4. Challenge results and fair play
 
@@ -223,7 +225,9 @@ Online pilot and Challenge records are kept to operate these features and invest
 
 ### 5. Recovery and private credentials
 
-A private, one-use recovery key can restore access to an online pilot on another installation. The service keeps a cryptographic hash to verify the key. Online recovery applies to the pilot and its online records. Campaign progress and the wallet stay on the device.
+For a Google-connected profile, use the same Google Account on a new device or after reinstalling to return to your Worldwide profile and scores. No recovery key is needed for this flow. Campaign progress, coins and cosmetics stay on the original device unless separately restored by your device’s backup service.
+
+An older guest profile’s private, one-use recovery key can restore access to an online pilot on another installation. The service keeps a cryptographic hash to verify the key. Online recovery applies to the pilot and its online records. Campaign progress and the wallet stay on the device.
 
 The gateway keeps earlier pilots’ account identifiers, names, flags and any recovery-key hashes to carry those profiles over. When you restore a pilot from an earlier build using its existing session, the gateway checks the old access credential with Supabase and verifies that the account owns the matching pilot before linking it. An existing recovery key can also verify ownership against the retained hash. The transferred profile keeps its name, flag and public ranking eligibility.
 
@@ -252,6 +256,8 @@ Include your public pilot name and flag if known and say whether you can still a
 Tell us which records you want removed. Depending on your use of Worldwide, the request can cover the Cloudflare gateway’s account, pilot, run, replay, recovery and account-linked request records, associated Talo rankings, and any legacy Supabase account or archive records linked to you. After verification and processing, we explain what was removed and any permitted retention. Provider logs and backups follow their separate retention processes.
 
 Manage campaign progress, coins, cosmetics, power ups, ad receipts and device-only records using your device’s local storage controls. Your device or backup service may retain saved copies according to your settings. Send an email to request removal of the online pilot.
+
+A request can include removal of the Google-to-game identity link and its associated game profile. This removes the game’s link; it does not delete your Google Account or data held by Google for its own services. You can also manage third-party connections in your Google Account settings. Revoking Google consent alone does not delete existing game records.
 
 
 ### 8. Providers, audience and contact
